@@ -29,7 +29,7 @@
         <NavLink href="#components/">Components</NavLink>
       </NavItem>
       <NavItem>
-        <NavLink href="https://github.com/bestguy/sveltestrap">GitHub</NavLink>
+        <NavLink href="https://github.com/ENKI-Technologies-S-L/enki-sveltestrap">GitHub</NavLink>
       </NavItem>
       <Dropdown nav inNavbar>
         <DropdownToggle nav caret>Options</DropdownToggle>

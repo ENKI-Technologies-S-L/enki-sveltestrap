@@ -73,7 +73,7 @@
           >Enkitek web</a
         > app. <br />
           <br />This library was forked from 
-          <a href="https://github.com/bestguy/sveltestrap">sveltestrap</a> library.
+          <a href="https://github.com/ENKI-Technologies-S-L/enki-sveltestrap">sveltestrap</a> library.
         </p>
         <Example source={sampleSource} stacked>
           <Sample />

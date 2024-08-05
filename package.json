@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:bestguy/sveltestrap.git"
+    "url": "git@github.com:ENKI-Technologies-S-L/enki-sveltestrap.git"
   },
   "files": [
     "dist",
