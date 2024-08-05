@@ -1,0 +1,46 @@
+name: NPM Publish
+
+on:
+  push:
+    branches:
+      - main
+
+# permissions:
+#   contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    # if: contains(github.event.head_commit.message, '(release)')
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20' # Changed to correct version number
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build Library
+        run: npm run build
+             
+      - name: Release new version
+        uses: JS-DevTools/npm-publish@v3
+        with:
+          token: ${{ secrets.NPM_TOKEN }}
+          access: public
+          package: package
+
+      - name: Create new tag
+        id: release
+        run: echo "tag=${GITHUB_REF#refs/*/}" >> $GITHUB_OUTPUT
+
+      - name: Check output
+        env:
+          RELEASE_VERSION: ${{ steps.release.outputs.tag }}
+        run: |
+          echo $RELEASE_VERSION
+          echo ${{ steps.release.outputs.tag }}
