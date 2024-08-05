@@ -7,7 +7,7 @@
     Nav,
     NavItem,
     NavLink
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 
   let isOpen = false;
   const toggle = () => (isOpen = !isOpen);

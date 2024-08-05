@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ListGroup, ListGroupItem } from 'sveltestrap';
+  import { ListGroup, ListGroupItem } from '@enkitek/sveltestrap';
   const colors = [
     'primary',
     'secondary',

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Collapse, Button, Card } from 'sveltestrap';
+  import { Collapse, Button, Card } from '@enkitek/sveltestrap';
 </script>
 
 <Button color="primary" id="toggler" class="mb-3">Toggle</Button>

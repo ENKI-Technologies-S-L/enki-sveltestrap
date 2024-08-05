@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Tooltip } from 'sveltestrap';
+  import { Button, Tooltip } from '@enkitek/sveltestrap';
 
   const placements = ['top', 'right', 'left', 'bottom'];
 </script>

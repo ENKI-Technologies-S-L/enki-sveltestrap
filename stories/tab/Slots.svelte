@@ -1,5 +1,5 @@
 <script>
-  import { Icon, TabContent, TabPane } from 'sveltestrap';
+  import { Icon, TabContent, TabPane } from '@enkitek/sveltestrap';
 </script>
 
 <TabContent>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Alert } from 'sveltestrap';
+  import { Alert } from '@enkitek/sveltestrap';
 
   let visible = true;
 </script>

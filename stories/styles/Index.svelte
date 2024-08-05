@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button } from 'sveltestrap';
+  import { Button } from '@enkitek/sveltestrap';
   import { linkTo } from '@storybook/addon-links';
   import Example from '../Example.svelte';
   import Sample from './Sample.svelte';

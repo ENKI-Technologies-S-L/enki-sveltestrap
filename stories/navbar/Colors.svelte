@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Navbar, NavbarBrand } from 'sveltestrap';
+  import { Navbar, NavbarBrand } from '@enkitek/sveltestrap';
 
   const colors = [
     'primary',

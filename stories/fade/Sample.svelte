@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Fade, Button, Card } from 'sveltestrap';
+  import { Fade, Button, Card } from '@enkitek/sveltestrap';
   let isOpen = false;
 </script>
 

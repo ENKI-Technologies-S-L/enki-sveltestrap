@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Collapse, Button, Card } from 'sveltestrap';
+  import { Collapse, Button, Card } from '@enkitek/sveltestrap';
 
   let isOpen = false;
   let status = 'Closed';

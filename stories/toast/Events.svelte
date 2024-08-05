@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Toast } from 'sveltestrap';
+  import { Button, Toast } from '@enkitek/sveltestrap';
   let isOpen = false;
   let status = 'Closed';
   const toggle = () => (isOpen = !isOpen);

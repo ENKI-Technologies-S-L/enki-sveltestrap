@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Popover } from 'sveltestrap';
+  import { Popover } from '@enkitek/sveltestrap';
 </script>
 
 <a class="btn btn-secondary" id="btnDismissible" tabindex="0">Click me</a>

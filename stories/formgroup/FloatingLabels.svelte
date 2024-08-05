@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Badge, Form, FormGroup, Input } from 'sveltestrap';
+  import { Badge, Form, FormGroup, Input } from '@enkitek/sveltestrap';
 </script>
 
 <Form>

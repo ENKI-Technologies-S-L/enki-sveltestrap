@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Table } from 'sveltestrap';
+  import { Table } from '@enkitek/sveltestrap';
 </script>
 
 <Table striped>

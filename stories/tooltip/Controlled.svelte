@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Tooltip } from 'sveltestrap';
+  import { Button, Tooltip } from '@enkitek/sveltestrap';
 
   let isOpen = false;
 </script>

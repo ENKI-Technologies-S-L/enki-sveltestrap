@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Icon, Input } from 'sveltestrap';
+  import { Icon, Input } from '@enkitek/sveltestrap';
   import Example from '../Example.svelte';
   import Sample from './Sample.svelte';
   import sampleSource from '!!raw-loader!./Sample.svelte';

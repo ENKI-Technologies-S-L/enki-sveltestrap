@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Form, FormGroup, FormText, Input, Label } from 'sveltestrap';
+  import { Form, FormGroup, FormText, Input, Label } from '@enkitek/sveltestrap';
   let radioGroup;
 </script>
 

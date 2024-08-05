@@ -1,5 +1,5 @@
 <script>
-  import { Button, Offcanvas } from 'sveltestrap';
+  import { Button, Offcanvas } from '@enkitek/sveltestrap';
   let open = false;
 </script>
 

@@ -8,7 +8,7 @@
     NavLink,
     Navbar,
     Dropdown
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 </script>
 
 <Navbar color="dark" dark expand="md">

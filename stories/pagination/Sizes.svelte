@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Pagination, PaginationItem, PaginationLink } from 'sveltestrap';
+  import { Pagination, PaginationItem, PaginationLink } from '@enkitek/sveltestrap';
 </script>
 
 <h4>Large</h4>

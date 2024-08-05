@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Icon, Toast, ToastBody, ToastHeader } from 'sveltestrap';
+  import { Icon, Toast, ToastBody, ToastHeader } from '@enkitek/sveltestrap';
   const colors = [
     'primary',
     'secondary',

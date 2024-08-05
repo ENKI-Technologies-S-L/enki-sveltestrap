@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Card, CardBody } from 'sveltestrap';
+  import { Card, CardBody } from '@enkitek/sveltestrap';
 </script>
 
 <Card>

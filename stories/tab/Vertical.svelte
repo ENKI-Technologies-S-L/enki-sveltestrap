@@ -1,5 +1,5 @@
 <script>
-  import { TabContent, TabPane } from 'sveltestrap';
+  import { TabContent, TabPane } from '@enkitek/sveltestrap';
 </script>
 
 <TabContent vertical pills>

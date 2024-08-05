@@ -62,7 +62,7 @@ or alternately, use the [Styles](https://sveltestrap.js.org/?path=/story/compone
 
 ```html
 <script>
-  import { Styles } from 'sveltestrap';
+  import { Styles } from '@enkitek/sveltestrap'ltestrap';
 </script>
 
 <Styles />
@@ -72,7 +72,7 @@ Then use sveltestrap components in your svelte component:
 
 ```html
 <script>
-  import { Button, Col, Row } from 'sveltestrap';
+  import { Button, Col, Row } from '@enkitek/sveltestrap';
 </script>
 
 <Row>
@@ -106,7 +106,7 @@ or the [Styles](https://sveltestrap.js.org/?path=/story/components--styles) comp
 
 ```html
 <script>
-  import { Styles } from 'sveltestrap';
+  import { Styles } from '@enkitek/sveltestrap';
 </script>
 <Styles />
 ```
@@ -118,7 +118,7 @@ Note that this issue does not affect SvelteKit. For example:
 
 ```html
 <script>
-  import { Button, Col, Row } from 'sveltestrap/src';
+  import { Button, Col, Row } from '@enkitek/sveltestrap/src';
 </script>
 
 <Row>
@@ -128,7 +128,7 @@ Note that this issue does not affect SvelteKit. For example:
 </Row>
 ```
 
-if you prefer the 'sveltestrap' import, you can move the package to `devDependencies` block in your `package.json` so that sapper will parse the es bundle
+if you prefer the '@enkitek/sveltestrap' import, you can move the package to `devDependencies` block in your `package.json` so that sapper will parse the es bundle
 
 ```json
 "devDependencies": {

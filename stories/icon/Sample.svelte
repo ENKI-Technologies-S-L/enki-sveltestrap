@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Icon } from 'sveltestrap';
+  import { Icon } from '@enkitek/sveltestrap';
 </script>
 
 <h1>

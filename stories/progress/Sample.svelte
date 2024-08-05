@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Progress } from 'sveltestrap';
+  import { Progress } from '@enkitek/sveltestrap';
 </script>
 
 <div class="text-center">0%</div>

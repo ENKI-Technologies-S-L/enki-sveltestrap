@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Pagination, PaginationItem, PaginationLink } from 'sveltestrap';
+  import { Pagination, PaginationItem, PaginationLink } from '@enkitek/sveltestrap';
 </script>
 
 <Pagination ariaLabel="Page navigation example">

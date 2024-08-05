@@ -5,7 +5,7 @@
     CarouselIndicators,
     CarouselItem,
     CarouselCaption
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 
   const items = [
     {

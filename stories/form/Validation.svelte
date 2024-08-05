@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { FormGroup, Input } from 'sveltestrap';
+  import { FormGroup, Input } from '@enkitek/sveltestrap';
 </script>
 
 <FormGroup>

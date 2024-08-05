@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Alert } from 'sveltestrap';
+  import { Alert } from '@enkitek/sveltestrap';
 </script>
 
 <Alert color="primary" heading="Hey here's header text">

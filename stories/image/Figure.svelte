@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Figure, Image } from 'sveltestrap';
+  import { Figure, Image } from '@enkitek/sveltestrap';
 </script>
 
 <Figure caption="I believe this is a cow needing a haircut">

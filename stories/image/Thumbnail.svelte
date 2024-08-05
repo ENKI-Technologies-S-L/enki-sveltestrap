@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Image } from 'sveltestrap';
+  import { Image } from '@enkitek/sveltestrap';
 </script>
 
 <Image thumbnail alt="Dunes" src="https://picsum.photos/100/100?random=1" />

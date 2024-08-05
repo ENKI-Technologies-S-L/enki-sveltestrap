@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Offcanvas } from 'sveltestrap';
+  import { Button, Offcanvas } from '@enkitek/sveltestrap';
   let open = false;
   const toggle = () => (open = !open);
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Col, Row } from 'sveltestrap';
+  import { Col, Row } from '@enkitek/sveltestrap';
   import PrismCode from './PrismCode.svelte';
 
   export let stacked: boolean = false;

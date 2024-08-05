@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Badge } from 'sveltestrap';
+  import { Badge } from '@enkitek/sveltestrap';
 </script>
 
 <Badge href="#" color="primary">Primary</Badge>

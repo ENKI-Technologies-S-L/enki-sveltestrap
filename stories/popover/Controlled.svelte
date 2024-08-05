@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Popover } from 'sveltestrap';
+  import { Button, Popover } from '@enkitek/sveltestrap';
 
   let isOpen = false;
 </script>

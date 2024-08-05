@@ -5,7 +5,7 @@
     DropdownToggle,
     Dropdown,
     Input
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 
   let isOpen = false;
 </script>

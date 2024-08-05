@@ -1,5 +1,5 @@
 <script>
-  import { Button, Icon, Styles } from 'sveltestrap';
+  import { Button, Icon, Styles } from '@enkitek/sveltestrap';
 
   let theme = 'light';
 </script>

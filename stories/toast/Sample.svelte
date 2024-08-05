@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Toast, ToastBody, ToastHeader } from 'sveltestrap';
+  import { Toast, ToastBody, ToastHeader } from '@enkitek/sveltestrap';
   const colors = [
     'primary',
     'secondary',

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { ListGroup, ListGroupItem } from 'sveltestrap';
+  import { ListGroup, ListGroupItem } from '@enkitek/sveltestrap';
 </script>
 
 <ListGroup flush>

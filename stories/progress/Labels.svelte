@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Progress } from 'sveltestrap';
+  import { Progress } from '@enkitek/sveltestrap';
 </script>
 
 <Progress value={25} class="mb-2">25%</Progress>

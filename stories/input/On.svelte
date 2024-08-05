@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { FormGroup, Input, Label } from 'sveltestrap';
+  import { FormGroup, Input, Label } from '@enkitek/sveltestrap';
 
   let changeValue = '';
   let inputValue = '';

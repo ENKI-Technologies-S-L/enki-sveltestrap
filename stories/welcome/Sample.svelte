@@ -1,5 +1,5 @@
 <script>
-  import { Button, Modal } from 'sveltestrap';
+  import { Button, Modal } from '@enkitek/sveltestrap';
   let isOpen = false;
   const toggle = () => (isOpen = !isOpen);
 </script>

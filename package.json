@@ -1,5 +1,5 @@
 {
-  "name": "sveltestrap",
+  "name": "@enkitek/sveltestrap",
   "version": "5.11.3",
   "main": "dist/sveltestrap.js",
   "module": "dist/sveltestrap.es.js",

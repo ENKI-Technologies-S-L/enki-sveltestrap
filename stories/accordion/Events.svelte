@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Accordion, AccordionItem } from 'sveltestrap';
+  import { Accordion, AccordionItem } from '@enkitek/sveltestrap';
 
   let id = 1;
   let open = true;

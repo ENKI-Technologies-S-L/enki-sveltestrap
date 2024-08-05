@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Card } from 'sveltestrap';
+  import { Card } from '@enkitek/sveltestrap';
 </script>
 
 <Card body color="primary" inverse class="mb-3">Primary</Card>

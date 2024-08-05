@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button } from 'sveltestrap';
+  import { Button } from '@enkitek/sveltestrap';
   const colors: any = [
     'primary',
     'secondary',

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, ButtonGroup } from 'sveltestrap';
+  import { Button, ButtonGroup } from '@enkitek/sveltestrap';
 </script>
 
 <ButtonGroup>

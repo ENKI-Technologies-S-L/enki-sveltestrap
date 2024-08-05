@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Progress } from 'sveltestrap';
+  import { Progress } from '@enkitek/sveltestrap';
 
   const colors = [
     'primary',

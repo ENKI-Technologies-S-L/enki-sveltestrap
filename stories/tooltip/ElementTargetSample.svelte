@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Tooltip } from 'sveltestrap';
+  import { Tooltip } from '@enkitek/sveltestrap';
   let myHtmlElementA, myHtmlElementB;
 </script>
 

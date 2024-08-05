@@ -11,7 +11,7 @@
     DropdownToggle,
     DropdownMenu,
     DropdownItem
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 
   let isOpen = false;
 

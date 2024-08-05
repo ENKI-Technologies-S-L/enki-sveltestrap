@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Modal, ModalBody, ModalHeader } from 'sveltestrap';
+  import { Modal, ModalBody, ModalHeader } from '@enkitek/sveltestrap';
 </script>
 
 <div>

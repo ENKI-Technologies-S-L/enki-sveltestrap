@@ -5,7 +5,7 @@
     ModalBody,
     ModalFooter,
     ModalHeader
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
   let open = false;
   const toggle = () => (open = !open);
 </script>

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Breadcrumb, BreadcrumbItem } from 'sveltestrap';
+  import { Breadcrumb, BreadcrumbItem } from '@enkitek/sveltestrap';
 </script>
 
 <Breadcrumb divider="・">

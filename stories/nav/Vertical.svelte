@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Nav, NavItem, NavLink } from 'sveltestrap';
+  import { Nav, NavItem, NavLink } from '@enkitek/sveltestrap';
 </script>
 
 <p>List Based</p>

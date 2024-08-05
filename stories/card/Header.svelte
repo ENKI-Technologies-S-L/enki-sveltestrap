@@ -8,7 +8,7 @@
     CardSubtitle,
     CardText,
     CardTitle
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 </script>
 
 <Card class="mb-3">

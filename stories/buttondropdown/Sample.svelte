@@ -4,7 +4,7 @@
     DropdownItem,
     DropdownMenu,
     DropdownToggle
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
 </script>
 
 <ButtonDropdown>

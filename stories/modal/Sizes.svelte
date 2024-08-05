@@ -6,7 +6,7 @@
     ModalBody,
     ModalFooter,
     ModalHeader
-  } from 'sveltestrap';
+  } from '@enkitek/sveltestrap';
   let open = false;
   let size: any;
   const toggle = () => {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Icon, Modal } from 'sveltestrap';
+  import { Button, Icon, Modal } from '@enkitek/sveltestrap';
   let open = false;
   const toggle = () => (open = !open);
 </script>

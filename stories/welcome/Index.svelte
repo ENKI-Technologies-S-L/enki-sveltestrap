@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Col, Container, Icon, Row } from 'sveltestrap';
+  import { Button, Col, Container, Icon, Row } from '@enkitek/sveltestrap';
   import { linkTo } from '@storybook/addon-links';
 
   import PrismCode from '../PrismCode.svelte';
@@ -35,35 +35,29 @@
                 />
               </g>
             </svg>
-            SVELTESTRAP
+            Enkitek SVELTESTRAP
           </h1>
           <p class="lead">
             <a href="https://v5.getbootstrap.com" target="new" class="text-body"
               >Bootstrap 5</a
             >
             components for
-            <a href="https://svelte.dev" target="new" class="text-body"
-              >Svelte 3</a
+            <a href="https://fms.enkitek.farm/shopfloor" target="new" class="text-body"
+              >Enkitek web</a
             >.
           </p>
           <p>
             <Button
               outline
               color="danger"
-              href="https://github.com/bestguy/sveltestrap"
+              href="https://github.com/ENKI-Technologies-S-L/enki-sveltestrap"
             >
               GitHub
             </Button>
             <Button color="danger" href="/?path=/story/components--layout">
               Components
             </Button>
-          </p>
-          <h6 class="text-danger mt-4">
-            <Icon name="exclamation-triangle-fill" />
-            <b>Note:</b>
-            Bootstrap 4 CSS users must use Sveltestrap 4 - see docs here:
-            <a href="./v4">Sveltestrap version 4</a>
-          </h6>
+          </p>        
         </Col>
       </Row>
     </Container>
@@ -75,16 +69,11 @@
         <hr />
         <p>
           The goal of this library is to provide all Bootstrap 5 components for
-          a <a href="https://svelte.dev">Svelte</a> app. <br />Sveltestrap makes
-          it easy to use Bootstrap since there is no need to use Bootstrap
-          component classes, to include Bootstrap's JavaScript, nor depend on
-          jQuery. <br />Sveltestrap is free, open-source software published
-          under the permissive
-          <a href="https://github.com/bestguy/sveltestrap/blob/master/LICENSE"
-            >MIT license.</a
-          >
-          <br />This library was inspired by the
-          <a href="https://reactstrap.github.io">reactstrap</a> library for React.
+          a  <a href="https://fms.enkitek.farm/shopfloor" target="new" class="text-body"
+          >Enkitek web</a
+        > app. <br />
+          <br />This library was forked from 
+          <a href="https://github.com/bestguy/sveltestrap">sveltestrap</a> library.
         </p>
         <Example source={sampleSource} stacked>
           <Sample />
@@ -96,7 +85,7 @@
         <p>Install sveltestrap and peer dependencies via NPM</p>
         <pre>
           <PrismCode class="language-bash">
-            npm install sveltestrap svelte
+            npm install @enkitek/sveltestrap
           </PrismCode>
         </pre>
 
@@ -141,7 +130,7 @@
           <PrismCode class="language-html"
             >{`
 <script>
-  import { Styles } from 'sveltestrap';
+  import { Styles } from '@enkitek/sveltestrap';
 </script>
 
 <Styles />`}
@@ -201,7 +190,7 @@
           <PrismCode class="language-html"
             >{`
 <script>
-  import { Styles } from 'sveltestrap';
+  import { Styles } from '@enkitek/sveltestrap';
 </script>
             
 <Styles />`}
@@ -212,15 +201,15 @@
           the icon CSS and webfonts on your own domain if needed.
         </p>
 
-        <h3>Using in Svelte app</h3>
+        <h3>Using in Enkitek app</h3>
         <p>
-          Import required sveltestrap components within
+          Import required Enkitek sveltestrap components within
           <code>src/App.svelte</code>
           file or your custom component files:
         </p>
         <pre>
           <PrismCode class="language-javascript">
-            {`import { Button } from 'sveltestrap';`}
+            {`import { Button } from '@enkitek/sveltestrap';`}
           </PrismCode>
         </pre>
         <p>
@@ -228,16 +217,7 @@
           your component hierarchy.
         </p>
 
-        <h4>Note on usage with Sapper</h4>
-        <p>
-          If you are using Sveltestrap with Sapper, it's recommended you import the component source directly.
-          Note that this issue does not affect SvelteKit. For example:
-        </p>
-        <pre>
-          <PrismCode class="language-javascript">
-            {`import { Card } from 'sveltestrap/src'`}
-          </PrismCode>
-        </pre>
+        
       </Col>
     </Row>
   </Container>

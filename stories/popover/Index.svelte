@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Alert } from 'sveltestrap';
+  import { Alert } from '@enkitek/sveltestrap';
   import Example from '../Example.svelte';
   import Controlled from './Controlled.svelte';
   import Dismissible from './Dismissible.svelte';

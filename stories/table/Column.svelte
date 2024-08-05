@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Column, Table } from 'sveltestrap';
+  import { Column, Table } from '@enkitek/sveltestrap';
 
   const ROWS = [
     {

@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Button, Form, FormGroup, Input } from 'sveltestrap';
+  import { Button, Form, FormGroup, Input } from '@enkitek/sveltestrap';
 
   let validated = false;
 </script>
