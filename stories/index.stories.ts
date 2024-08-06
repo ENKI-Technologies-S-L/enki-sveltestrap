@@ -35,6 +35,7 @@ import Tooltip from './tooltip/Index.svelte';
 import Validation from './form/Index.svelte';
 import Welcome from './welcome/Index.svelte';
 import NoDataFound from './nodatafound/Index.svelte';
+import EnkiPage from './enkipage/Index.svelte';
 
 const story = (Component) => () => ({
   Component
@@ -78,4 +79,7 @@ storiesOf('Components/Styles', module).add('Styles', story(Styles))
 storiesOf('Components/Tabs', module).add('Tabs', story(Tab))
 storiesOf('Components/Toast', module).add('Toast', story(Toast))
 storiesOf('Components/Tooltip', module).add('Tooltip', story(Tooltip));
-storiesOf('Components/NoDataFound', module).add('NoDataFound', story(NoDataFound));
+
+
+storiesOf('Custom/NoDataFound', module).add('NoDataFound', story(NoDataFound));
+storiesOf('Custom/EnkiPage', module).add('EnkiPage', story(EnkiPage));
