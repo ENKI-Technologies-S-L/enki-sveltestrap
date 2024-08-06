@@ -1,0 +1,25 @@
+<script lang="ts">
+  import Example from '../Example.svelte';
+  import Sample from './Sample.svelte';
+  import SlotSample from './SlotSample.svelte';
+  import sampleSource from '!!raw-loader!./Sample.svelte';
+  import SlotSampleSource from '!!raw-loader!./SlotSample.svelte';
+  
+  
+</script>
+
+<h1>Pagination</h1>
+<a
+  href="https://getbootstrap.com/docs/5.3/components/pagination/"
+  target="_blank"
+>
+  Bootstrap Pagination
+</a>
+
+<Example source={sampleSource}>
+  <Sample />
+</Example>
+
+<Example source={SlotSampleSource}>
+  <SlotSample />
+</Example>
