@@ -27,15 +27,18 @@
 <div class="{`page-wrapper ${open ? `opened` : ``}`}">
 	<div class="content-wrapper d-flex justify-content-between" >
 		<div class="main-menu">		
-			<div class="d-flex justify-content-between">
-				<h4>{company}</h4>
-				<Button on:click={toggle} color="link">
-					<Icon name="{open ? 'chevron-double-left' : 'chevron-double-right'}"></Icon>
-				</Button>
+			<div class="position-fixed">
+				<div class="d-flex justify-content-between">
+					<h4>{company}</h4>
+					<Button on:click={toggle} color="link">
+						<Icon name="{open ? 'chevron-double-left' : 'chevron-double-right'}"></Icon>
+					</Button>
+				</div>
+				<div class="menu-wrapper">
+					<slot name="menu" {open}/>
+				</div>
 			</div>
-			<div class="menu-wrapper">
-				<slot name="menu" {open}/>
-			</div>
+			
 		</div>
 		<div class="flex-grow-1">
 			<Navbar color="light" light expand="md">
@@ -75,8 +78,7 @@
 <style lang="scss">
 
 @mixin main-menu {
-width: 300px;
-background-color: #007FD8;
+	width: 300px;
 }
 
 
