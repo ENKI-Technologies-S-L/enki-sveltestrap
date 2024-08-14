@@ -1,7 +1,6 @@
 <script>
 	import Button from "./Button.svelte";
-	import Icon from "./Icon.svelte";
-	import Nav from "./Nav.svelte";
+	import Icon from "./Icon.svelte";	
 	import Navbar from "./Navbar.svelte";
 	
 	import Popover from "./Popover.svelte";
@@ -30,7 +29,10 @@
 		<div class="main-menu">		
 			<div class="d-flex justify-content-between">
 				<h4>{company}</h4>
-				<Button on:click={toggle} color="link"><Icon name="chevron-double-left"></Icon></Button></div>
+				<Button on:click={toggle} color="link">
+					<Icon name="{open ? 'chevron-double-left' : 'chevron-double-right'}"></Icon>
+				</Button>
+			</div>
 			<div class="menu-wrapper">
 				<slot name="menu" {open}/>
 			</div>
@@ -39,8 +41,7 @@
 			<Navbar color="light" light expand="md">
 				
 				<slot name="brand" {open}/>
-				
-				  <Nav class="ms-auto">
+								  
 					
 					
 						<Button color="ink" class="border border-primary rounded-circle" id="my-account-popover">a</Button>
@@ -51,15 +52,13 @@
 						>
 						<slot name="user-menu" {open}/>
 						</Popover>
-					
-				  </Nav>
+									  
 				
 			  </Navbar>
 			<div class="content">
 				<slot name="content" {open}/>
 			</div>
-			<div class="d-flex">
-				footer
+			<div class="d-flex">				
 				{#if $$slots.footer}                
 					<slot name="footer" {open}/>                				
 				{:else}
@@ -77,6 +76,7 @@
 
 @mixin main-menu {
 width: 300px;
+background-color: #007FD8;
 }
 
 
@@ -86,7 +86,7 @@ width: 300px;
   }
   .main-menu {
 	@include main-menu;
-    width: 30px;
+    width: 54px;
     transition: width 0.3s ease-in-out; /* Add transition here */
   }
   .menu-wrapper {

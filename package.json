@@ -1,6 +1,6 @@
 {
   "name": "@enkitek/sveltestrap",
-  "version": "5.11.7",
+  "version": "5.11.8",
   "main": "dist/sveltestrap.js",
   "module": "dist/sveltestrap.es.js",
   "jsnext:main": "dist/sveltestrap.es.js",
