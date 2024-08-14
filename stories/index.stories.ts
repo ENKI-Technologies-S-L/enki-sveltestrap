@@ -36,6 +36,7 @@ import Validation from './form/Index.svelte';
 import Welcome from './welcome/Index.svelte';
 import NoDataFound from './nodatafound/Index.svelte';
 import EnkiPage from './enkipage/Index.svelte';
+import EnkiLayout from './enkilayout/Index.svelte';
 
 const story = (Component) => () => ({
   Component
@@ -83,3 +84,4 @@ storiesOf('Components/Tooltip', module).add('Tooltip', story(Tooltip));
 
 storiesOf('Custom/NoDataFound', module).add('NoDataFound', story(NoDataFound));
 storiesOf('Custom/EnkiPage', module).add('EnkiPage', story(EnkiPage));
+storiesOf('Custom/EnkiLayout', module).add('EnkiLayout', story(EnkiLayout));

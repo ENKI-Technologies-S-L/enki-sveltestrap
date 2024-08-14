@@ -89,6 +89,7 @@ import ToastHeader from './ToastHeader';
 import Tooltip from './Tooltip';
 import NoDataFound from './NoDataFound';
 import EnkiPage from './EnkiPage';
+import EnkiLayout from './EnkiLayout';
 
 export {
   Accordion,
@@ -180,5 +181,6 @@ export {
   ToastHeader,
   Tooltip,
   NoDataFound,
-  EnkiPage
+  EnkiPage,
+  EnkiLayout
 };

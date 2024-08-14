@@ -85,3 +85,4 @@ export { default as ToastHeader } from './ToastHeader.svelte';
 export { default as Tooltip } from './Tooltip.svelte';
 export { default as NoDataFound } from './NoDataFound.svelte';
 export { default as EnkiPage } from './EnkiPage.svelte';
+export { default as EnkiLayout } from './EnkiLayout.svelte';
