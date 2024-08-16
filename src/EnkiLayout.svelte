@@ -27,7 +27,7 @@
 <div class="{`page-wrapper ${open ? `opened` : ``}`}">
 	<div class="content-wrapper d-flex justify-content-between" >
 		<div class="main-menu">		
-			<div class="position-fixed">
+			<div>
 				<div class="d-flex justify-content-between">
 					<h4>{company}</h4>
 					<Button on:click={toggle} color="link">
@@ -40,7 +40,7 @@
 			</div>
 			
 		</div>
-		<div class="flex-grow-1">
+		<div class="flex-grow-1 main-content-area">
 			<Navbar color="light" light expand="md">
 				
 				<slot name="brand" {open}/>
@@ -76,7 +76,10 @@
 
 
 <style lang="scss">
-
+.main-content-area{
+	height: 100vh;
+	overflow-y: scroll;
+}
 @mixin main-menu {
 	width: 300px;
 }
