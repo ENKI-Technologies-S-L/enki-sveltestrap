@@ -79,6 +79,9 @@
 .main-content-area{
 	height: 100vh;
 	overflow-y: scroll;
+	.content{
+		height: calc(100vh - 128px);
+	}
 }
 @mixin main-menu {
 	width: 300px;
